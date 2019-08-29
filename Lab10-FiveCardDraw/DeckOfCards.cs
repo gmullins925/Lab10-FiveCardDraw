@@ -44,10 +44,7 @@ namespace Class_Example_VS
 			}
 		}
 
-		public static implicit operator DeckOfCards(Card v)
-		{
-			throw new NotImplementedException();
-		}
+		
 	}
 }
 

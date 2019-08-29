@@ -21,6 +21,7 @@ namespace Class_Example_VS
 
 			Console.OutputEncoding = System.Text.Encoding.Unicode;
 			DeckOfCards myDeck = new DeckOfCards();
+			myDeck.Shuffle();
 
 			//cycle thru deck
 			foreach (Card card in myDeck.Deck)
